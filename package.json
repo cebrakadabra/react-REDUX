@@ -1,5 +1,5 @@
 {
-  "name": "react-FLUX",
+  "name": "react-REDUX",
   "version": "1.0.0",
   "description": "this is a webpack default setup with react components",
   "main": "webpack.config.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cebrakadabra/default-react-webpack-setup.git"
+    "url": "git+https://github.com/cebrakadabra/react-REDUX.git"
   },
   "author": "cebrakadabra | Christoph Eberl",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cebrakadabra/default-react-webpack-setup/issues"
+    "url": "https://github.com/cebrakadabra/react-REDUX/issues"
   },
-  "homepage": "https://github.com/cebrakadabra/default-react-webpack-setup#readme",
+  "homepage": "https://github.com/cebrakadabra/react-REDUX#readme",
   "dependencies": {
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
