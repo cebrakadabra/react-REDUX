@@ -1,7 +1,7 @@
 {
   "name": "react-REDUX",
   "version": "1.0.0",
-  "description": "this is a webpack default setup with react components",
+  "description": "this is a webpack default setup with react components using REDUX",
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack-dev-server --content-base src --inline --hot",
