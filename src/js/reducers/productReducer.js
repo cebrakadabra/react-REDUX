@@ -17,12 +17,9 @@ let productReducer = function(products = [], action) {
         return product.id !== action.id;
       });
 
-      // TODO
-    // case "RECEIVE_PRODUCTS": {
-      // this.products = action.products;
-      // this.emit("change");
-      // break;
-    // }
+    case "RECEIVE_PRODUCTS":
+      products = action.products;
+      return products;
 
     default:
       return products;

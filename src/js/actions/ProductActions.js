@@ -13,8 +13,34 @@ let actions = {
     };
   },
 
+  reloadProductsAsync: function(products){
+    return {
+      type: "RECEIVE_PRODUCTS",
+      products: products
+    }
+  },
+
   reloadProducts: function() {
-    // TODO
+
+    const products = [
+      {
+        id: 8484848484,
+        text: "TV Series One",
+        live: false
+      },
+      {
+        id: 6262627272,
+        text: "TV Series Two",
+        live: true
+      }
+    ];
+
+    return (dispatch) => {
+      setTimeout(() => {
+        dispatch(actions.reloadProductsAsync(products));
+      }, 2000);
+    };
+
   },
 };
 
