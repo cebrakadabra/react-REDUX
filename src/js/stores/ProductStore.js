@@ -35,19 +35,19 @@ class ProductStore extends EventEmitter {
     return this.products;
   }
 
-  handleActions(action) {
-    switch(action.type) {
-      case "CREATE_PRODUCT": {
-        this.createProduct(action.text);
-        break;
-      }
-      case "RECEIVE_PRODUCTS": {
-        this.products = action.products;
-        this.emit("change");
-        break;
-      }
-    }
-  }
+  // handleActions(action) {
+  //   switch(action.type) {
+  //     case "CREATE_PRODUCT": {
+  //       this.createProduct(action.text);
+  //       break;
+  //     }
+  //     case "RECEIVE_PRODUCTS": {
+  //       this.products = action.products;
+  //       this.emit("change");
+  //       break;
+  //     }
+  //   }
+  // }
 
 }
 
