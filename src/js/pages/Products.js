@@ -4,7 +4,6 @@ import { bindActionCreators } from 'redux';
 
 import Product from "../components/Product";
 import actions from "../actions/ProductActions";
-// import ProductStore from "../stores/ProductStore";
 
 
 export default class Products extends React.Component {
