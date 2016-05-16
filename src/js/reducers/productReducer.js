@@ -1,4 +1,4 @@
-getAll(products) {
+function getAll(products) {
   return products;
 }
 
@@ -7,15 +7,15 @@ let productReducer = function(products = [], action) {
 
     case "CREATE_PRODUCT":
       return [{
-        id: Date now(),
+        id: Date.now(),
         text: action.text,
         live: false
-      }, ...products]
+      }, ...products];
 
     case "DELETE_PRODUCT":
       return products.filter((product) => {
-        return product.id !== action.id
-      })
+        return product.id !== action.id;
+      });
 
       // TODO
     // case "RECEIVE_PRODUCTS": {
@@ -25,7 +25,7 @@ let productReducer = function(products = [], action) {
     // }
 
     default:
-      return products
+      return products;
 
   }
 };

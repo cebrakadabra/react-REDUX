@@ -2,7 +2,7 @@ let actions = {
   createProduct: function(text) {
     return {
       type: "CREATE_PRODUCT",
-      text: text
+      text: "New Product in the list, random no.: " + Date.now()
     };
   },
 
@@ -11,6 +11,10 @@ let actions = {
       type: "DELETE_PRODUCT",
       id: id
     };
+  },
+
+  reloadProducts: function() {
+    // TODO
   },
 };
 
