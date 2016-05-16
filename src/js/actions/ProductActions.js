@@ -3,20 +3,18 @@ let actions = {
     return {
       type: "CREATE_PRODUCT",
       text: text
-    }
+    };
   },
 
   deleteProduct: function(id) {
     return {
       type: "DELETE_PRODUCT",
       id: id
-    }
+    };
   },
+};
 
-
-}
-
-export default actions
+export default actions;
 
 
 
