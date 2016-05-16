@@ -20,7 +20,7 @@ let initialState = {
       live: false
     }
   ]
-}
+};
 
 let store = configureStore(initialState);
 const app = document.getElementById('app');
